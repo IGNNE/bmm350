@@ -1,0 +1,3 @@
+/bmm350:
+  ros__parameters:
+    bus_number: 1

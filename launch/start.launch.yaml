@@ -1,0 +1,14 @@
+# Starts BMM350 sensor node
+
+launch:
+  - node:
+      pkg: bmm350
+      exec: bmm350
+      name: bmm350
+      remap:
+        # raw magnetometer sensor output
+        - from: /output/mag
+          to: /sense/bmm350/raw
+      param:
+        - from: $(find-pkg-share bmm350)/parameters.yaml
+
