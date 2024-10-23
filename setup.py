@@ -27,7 +27,7 @@ setup(
         (f"share/{PACKAGE_NAME}", ["package.xml"]),
         (f"share/{PACKAGE_NAME}", glob("launch/*.*")),
     ],
-    install_requires=["setuptools", "pytest", "pytest-cov"],
+    install_requires=["setuptools", "pytest", "pytest-cov", "smbus2"],
     tests_require=["pytest"],  # to tell colcon that we run pytest
     zip_safe=True,
     maintainer=package.find("maintainer").text,
