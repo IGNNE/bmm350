@@ -18,6 +18,6 @@ Tested with Humble / 22.04 on a RasPi Zero2, but there is no reason it won't wor
 
 ## Configuration
 
-Change `resource/parameters.yaml`. For the moment, it is just the I2C bus number. Also change here if you start under a different namespace. 
+Change `resource/parameters.yaml` and rebuild. For the moment, it is just the I2C bus number. Also change here if you start under a different namespace. 
 
 
